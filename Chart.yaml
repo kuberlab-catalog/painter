@@ -1,0 +1,10 @@
+name: painter
+version: 1.0.0
+description: Painter is a simple web-based UI that allows to draw some images in browser window and send them as PNG files.
+keywords:
+- web
+- draw
+icon: https://github.com/kuberlab/painter/raw/master/icon.png
+sources:
+- https://github.com/kuberlab/painter
+engine: gotpl
