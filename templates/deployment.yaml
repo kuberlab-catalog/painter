@@ -25,7 +25,7 @@ spec:
         - name: MODEL
           value: {{.Values.model}}
         - name: PAINTER_SERVICE
-          value: "{{.Values.model}}:9000"
+          value: "{{.Values.model}}.{{.Values.mlapp}}.svc.cluster.local:9000"
         ports:
         - name: http
           containerPort: 80
