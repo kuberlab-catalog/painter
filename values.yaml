@@ -1,5 +1,5 @@
 image: kuberlab/painter:latest
-
+model: mnist
 serviceType: ClusterIP
 
 resources:
