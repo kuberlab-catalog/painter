@@ -1,6 +1,8 @@
 image: kuberlab/painter:latest
-model: mnist
-mlapp: mnist-sm
+mnist_model: mnist
+mnist_mlapp: mnist-sm
+styles_model: styles
+styles_mlapp: styles-transfer
 serviceType: ClusterIP
 
 resources:
