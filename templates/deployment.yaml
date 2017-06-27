@@ -21,6 +21,11 @@ spec:
       - name: {{ template "fullname" . }}
         image: {{ .Values.image }}
         imagePullPolicy: {{ default "" .Values.imagePullPolicy | quote }}
+        env:
+        - name: MODEL
+          value: {{.Values.model}}
+        - name: PAINTER_SERVICE
+          value: "{{.Values.model}}:9000"
         ports:
         - name: http
           containerPort: 80
