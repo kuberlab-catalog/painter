@@ -25,7 +25,7 @@ spec:
         - name: MNIST_MODEL
           value: {{.Values.mnist_model}}
         - name: PAINTER_SERVICE
-          value: "{{.Values.mist_model}}.{{.Values.mnist_mlapp}}.svc.cluster.local:9000"
+          value: "{{.Values.mnist_model}}.{{.Values.mnist_mlapp}}.svc.cluster.local:9000"
         - name: TRANSFER_MODEL
           value: {{.Values.styles_model}}
         - name: TRANSFER_SERVICE
